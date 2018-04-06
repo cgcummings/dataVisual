@@ -1,3 +1,5 @@
+// for CERN ROOT
+
 TCanvas* c_1 = new Tcanvas("c_1" , "2D histogram" , 500,0, 500,800);
 c_1->Divide(1,2);
 c_1->cd(1);
